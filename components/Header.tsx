@@ -7,6 +7,7 @@ import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
 import { twMerge } from "tailwind-merge";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { FaUserAlt } from "react-icons/fa";
+import toast from "react-hot-toast";
 
 import Button from "./Button";
 import useAuthModal from "@/hooks/useAuthModal";
@@ -31,7 +32,8 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 
     router.refresh();
 
-    if (error) console.log(error);
+    if (error) toast.error(error.message);
+    else toast.success("Logged Out");
   };
 
   return (
