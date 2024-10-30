@@ -14,7 +14,7 @@ import Button from "./Button";
 const UploadModal = () => {
   const [isLoading, setIsLoading] = useState(false);
   const uploadModal = useUploadModal();
-  const user = useUser();
+  const { user } = useUser();
   const supabaseClient = useSupabaseClient();
   const router = useRouter();
 
@@ -83,7 +83,7 @@ const UploadModal = () => {
       const { error: supabaseError } = await supabaseClient
         .from("songs")
         .insert({
-          user_id: user.user?.id,
+          user_id: user.id,
           title: values.title,
           author: values.author,
           image_path: imageData.path,
