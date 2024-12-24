@@ -6,6 +6,7 @@ import {
   upsertPriceRecord,
   upsertProductRecord,
 } from "@/libs/supabaseAdmin";
+import stripe from "stripe";
 
 const relevantEvents = new Set([
   "product.created",
@@ -27,6 +28,7 @@ export async function POST(request: Request) {
   try {
     if (!sig || !webhookSecret) return;
     event = stripe.webhooks.constructEvent(body, sig, webhookSecret);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     console.log("Error message: " + error.message);
     return new NextResponse(`Webhook Error: ${error.message}`, { status: 400 });
