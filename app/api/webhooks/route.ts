@@ -6,7 +6,7 @@ import {
   upsertPriceRecord,
   upsertProductRecord,
 } from "@/libs/supabaseAdmin";
-import stripe from "stripe";
+import { stripe } from "@/libs/stripe";
 
 const relevantEvents = new Set([
   "product.created",
