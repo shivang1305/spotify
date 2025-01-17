@@ -72,7 +72,7 @@ cd spotify-clone
 npm install
 ```
 
-### \*\*3. Environment Variables
+### **3. Environment Variables**
 
 Create a .env.local file in the root of the project and add the following variables:
 
@@ -84,7 +84,7 @@ NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
 NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 ```
 
-### \*\*4. Run the Development Server
+### **4. Run the Development Server**
 
 ```bash
 npm run dev
