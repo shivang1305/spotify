@@ -101,21 +101,39 @@ The application has been deployed and is live! You can check it out here:
 
 ## Screenshots 📸
 
-### **Homepage**
-
-![Homepage Screenshot](https://via.placeholder.com/800x400?text=Homepage)
-
 ### **Authentication Page**
 
-![Authentication Page Screenshot](https://via.placeholder.com/800x400?text=Authentication+Page)
+![Register Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Register.png)
+
+![Login Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Login.png)
+
+### **Homepage**
+
+![Homepage Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Home.png)
+
+### **Liked Songs**
+
+![Liked Songs Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/LikedSongs.png)
+
+### **Search Songs**
+
+![Search Songs Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Search.png)
 
 ### **Upload Songs**
 
-![Upload Songs Screenshot](https://via.placeholder.com/800x400?text=Upload+Songs)
+![Upload Songs Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/UploadSong.png)
+
+### **Profile Page**
+
+![Profile Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Profile.png)
 
 ### **Player Functionality**
 
-![Player Functionality Screenshot](https://via.placeholder.com/800x400?text=Player+Functionality)
+![Player Functionality Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Player.png)
+
+### **Subscriptions Page**
+
+![Subscriptions Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Stripe.png)
 
 ---
 
