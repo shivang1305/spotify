@@ -62,8 +62,8 @@ Follow these steps to set up the project locally:
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/your-repo/spotify-clone.git
-cd spotify-clone
+git clone https://github.com/shivang1305/spotify.git
+cd spotify
 ```
 
 ### **2. Install Dependencies**
@@ -95,7 +95,7 @@ Visit http://localhost:3000 to view the app in development mode.
 ## Deployments 🚀
 
 The application has been deployed and is live! You can check it out here:  
-[Spotify Clone Live](https://spotify-7s64j14zf-shivang1305s-projects.vercel.app/)
+[Spotify Live](https://spotify-7s64j14zf-shivang1305s-projects.vercel.app/)
 
 ---
 
