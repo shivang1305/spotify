@@ -103,7 +103,11 @@ The application has been deployed and is live! You can check it out here:
 
 ### **Authentication Page**
 
+#### Register Page
+
 ![Register Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Register.png)
+
+#### Login Page
 
 ![Login Page Screenshot](https://github.com/shivang1305/spotify/blob/main/public/images/Login.png)
 
